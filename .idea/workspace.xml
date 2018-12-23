@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6319798a-ee6f-46bc-8ec9-baba5e0c4aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/scott.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myipaddr/datastores/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myipaddr/datastores/redis_datastore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myipaddr/notifiers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myipaddr/notifiers/pushover_notifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myipaddr/notifiers/redis_notifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myipaddr/providers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myipaddr/providers/ipify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myipaddr/providers/upnp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myipaddr/myipaddr/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ipaddress.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ipaddress.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myipaddr/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/myipaddr/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myipaddr/myipaddr.json" beforeDir="false" afterPath="$PROJECT_DIR$/myipaddr/myipaddr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/datastores/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/datastores/redis_datastore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/notifiers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/notifiers/pushover_notifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/notifiers/redis_notifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/providers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/providers/ipify.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myipaddr/providers/upnp.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +28,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myipaddr/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myipaddr/myipaddr/notifiers/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myipaddr/myipaddr/datastores/redis_datastore.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myipaddr/myipaddr/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#6#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,10 +102,13 @@
         <option value="$PROJECT_DIR$/myipaddr/notifiers/redis_notifier.py" />
         <option value="$PROJECT_DIR$/myipaddr/datastores/redis_datastore.py" />
         <option value="$PROJECT_DIR$/myipaddr/myipaddr.json" />
-        <option value="$PROJECT_DIR$/myipaddr/app.py" />
         <option value="$PROJECT_DIR$/myipaddr/notifiers/__init__.py" />
         <option value="$PROJECT_DIR$/myipaddr/providers/__init__.py" />
         <option value="$PROJECT_DIR$/myipaddr/datastores/__init__.py" />
+        <option value="$PROJECT_DIR$/myipaddr/myipaddr/datastores/redis_datastore.py" />
+        <option value="$PROJECT_DIR$/myipaddr/myipaddr/config.py" />
+        <option value="$PROJECT_DIR$/myipaddr/myipaddr/notifiers/__init__.py" />
+        <option value="$PROJECT_DIR$/myipaddr/app.py" />
       </list>
     </option>
   </component>
@@ -105,19 +141,7 @@
               <item name="myipaddr" type="b2602c69:ProjectViewProjectNode" />
               <item name="myipaddr" type="462c0819:PsiDirectoryNode" />
               <item name="myipaddr" type="462c0819:PsiDirectoryNode" />
-              <item name="datastores" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myipaddr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myipaddr" type="462c0819:PsiDirectoryNode" />
-              <item name="myipaddr" type="462c0819:PsiDirectoryNode" />
               <item name="notifiers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myipaddr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myipaddr" type="462c0819:PsiDirectoryNode" />
-              <item name="myipaddr" type="462c0819:PsiDirectoryNode" />
-              <item name="providers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,9 +151,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.venv/lib/python3.7/lib-dynload" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myipaddr" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,10 +308,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myipaddr/myipaddr/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myipaddr/myipaddr/datastores/redis_datastore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myipaddr/myipaddr/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myipaddr/myipaddr/notifiers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myipaddr/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

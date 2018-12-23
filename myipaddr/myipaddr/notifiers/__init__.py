@@ -17,3 +17,15 @@ def get_notifier(cfg, notifier):
     instance.init()
 
     return instance
+
+def create_notifiers(cfg):
+    notifiers = []
+
+    for n in cfg.notifiers:
+        notifiers.append(get_notifier(cfg, n))
+
+    return notifiers
+
+def send_notification(notifiers, current_ip):
+    for n in notifiers:
+        n.send(current_ip)

@@ -15,4 +15,8 @@ class RedisDatastore(object):
         self._redis.hset('ipaddress', field, value)
 
     def get(self, field):
-        return self._redis.hget('ipaddress', field)
+        val = self._redis.hget('ipaddress', field)
+        if isinstance(val, bytes):
+            val = val.decode('utf-8')
+
+        return val

@@ -1,0 +1,4 @@
+*.pyc
+ipaddress/ipaddress.json
+*.egg-info
+.venv

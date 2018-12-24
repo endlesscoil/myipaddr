@@ -1,4 +1,4 @@
-ipaddress/ipaddress.json
+myipaddr/myipaddr.json
 *.pyc
 *.egg-info
 .venv

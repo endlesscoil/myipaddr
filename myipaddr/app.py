@@ -9,6 +9,11 @@ CONFIG_FILE = 'myipaddr/myipaddr.json'
 
 
 def main():
+    """ Main entry point
+
+    :return: None
+    :rtype: None
+    """
     cfg = load_config(CONFIG_FILE)
     datastore = get_datastore(cfg)
     provider = get_provider(cfg)
